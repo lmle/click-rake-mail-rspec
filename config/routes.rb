@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'tests' => 'application#run_test'
+  get 'run-test' => 'application#run_test'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
